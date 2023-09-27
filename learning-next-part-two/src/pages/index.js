@@ -17,9 +17,13 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <h1>Next Js pre-rendering</h1>
+        <h1>Next Js pre-rendering</h1>
         <ul>
           <li>
             <Link href={'/users'}>Users (getStaticProp)</Link>
+          </li>
+          <li>
+            <Link href={'/posts'}>Posts (getStaticPath)</Link>
           </li>
         </ul>
       </main>
