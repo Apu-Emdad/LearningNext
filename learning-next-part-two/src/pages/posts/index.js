@@ -2,7 +2,6 @@ import Link from 'next/link';
 import React from 'react';
 
 const Posts = ({ posts }) => {
-  console.log('posts:', posts);
   return (
     <div>
       <h1>List of All Posts</h1>

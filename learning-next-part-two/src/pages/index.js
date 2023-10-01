@@ -17,13 +17,15 @@ export default function Home() {
       </Head>
       <main>
         <h1>Next Js pre-rendering</h1>
-        <h1>Next Js pre-rendering</h1>
         <ul>
           <li>
             <Link href={'/users'}>Users (getStaticProp)</Link>
           </li>
           <li>
             <Link href={'/posts'}>Posts (getStaticPath)</Link>
+          </li>
+          <li>
+            <Link href={'/products'}>Products (Incremental Static Generation)</Link>
           </li>
         </ul>
       </main>
