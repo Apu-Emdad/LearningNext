@@ -1,3 +1,5 @@
+Check this [tutorial](https://www.youtube.com/watch?v=j4nAZaPQzwc) For better explanation
+
 In Next.js, the `fallback` option in the `getStaticPaths` function determines what happens when a user tries to access a page with a path that doesn't have a corresponding pre-generated HTML file during the build process. It controls how Next.js handles paths that are not available at build time.
 
 1. **`fallback: false`**:
