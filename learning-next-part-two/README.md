@@ -1,5 +1,7 @@
 ## Server-Side Rendering (SSR) vs. Static Site Generation (SSG)
 
+**Involved Pages**: pages/users.js
+
 To illustrate the difference between Server-Side Rendering (SSR) and Static Site Generation (SSG), let's use an example of a simple blog website. In both cases, we'll assume we have a list of blog posts fetched from an API.
 
 ### Server-Side Rendering (SSR)
