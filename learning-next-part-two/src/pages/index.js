@@ -27,6 +27,9 @@ export default function Home() {
           <li>
             <Link href={'/products'}>Products (Incremental Static Generation)</Link>
           </li>
+          <li>
+            <Link href={'/news'}>News (getServerSideProps)</Link>
+          </li>
         </ul>
       </main>
     </>
