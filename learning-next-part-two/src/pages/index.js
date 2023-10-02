@@ -30,6 +30,9 @@ export default function Home() {
           <li>
             <Link href={'/news'}>News (getServerSideProps)</Link>
           </li>
+          <li>
+            <Link href={'/news/sports'}>News (getServerSideProps with dynamic route- /sports, /politics)</Link>
+          </li>
         </ul>
       </main>
     </>
