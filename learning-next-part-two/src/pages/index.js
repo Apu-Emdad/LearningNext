@@ -36,6 +36,9 @@ export default function Home() {
           <li>
             <Link href={'/dashboard'}>Dashboard (Client side data fetching using swr)</Link>
           </li>
+          <li>
+            <Link href={'/comments'}>API (Create, Read, Delete)</Link>
+          </li>
         </ul>
       </main>
     </>
